@@ -1,0 +1,131 @@
+/*  banner*/
+.banner{
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper{
+    position: relative;
+    height: 500px;
+}
+
+.banner .aside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 251px;
+    height: 500px;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.banner .aside li{
+    width: 251px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 19px;
+}
+
+.banner.aside a{
+    width: 250px;
+    height: 50px;
+    margin-left: 47px;
+    font-size: 16px;
+
+    color: #fff;
+}
+
+.banner .aside a .one{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.banner .aside li:hover{
+    background-color: #27ba9b;
+}
+
+.banner .aside a .two{
+    margin-left: 82px;
+    
+}
+
+
+
+.prev,
+.next{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    background-image: url(../images/sprites.png);
+}
+
+.prev{
+    left: 251px;
+    top: 250px;
+    background-position: 10px -60px;
+}
+
+.next{
+    right: 10px;
+    top: 250px;
+    background-position: -24px -60px;
+}
+
+/* 新鲜 */
+.xinxian{
+    margin-top: 48px;
+    height: 471px;
+}
+
+.xinxian .title{
+    height: 29px;
+}
+
+.xinxian .title h2{
+    float: left;
+    font-size: 29px;
+    color: #333333;
+}
+
+.xinxian .title p{
+    float: left;
+    margin-top: 11px;
+    margin-left: 34px;
+    display: block;
+    font-size: 16px;
+    color: #999999;
+}
+
+.xinxian .title span a{
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-top: 11px;
+}
+
+.xinxian .last{
+    margin-top: 37px;
+    height: 405px;
+}
+
+.xinxian .last li{
+    float: left;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.xinxian .last li:last-child{
+    margin: 0;
+}
+
+.xinxian .last li p{
+    padding: 14px 0;
+}
+
+.xinxian .last img{
+    width: 304px;
+    height: 305px;
+}
+

@@ -1,0 +1,237 @@
+/* 第一个模块 */
+/* .middle{
+    margin-left: 584px;
+} */
+.personal {
+    width: 996px;
+    margin-left: 365px;
+}
+
+.one {
+    margin-top: 50px;
+    height: 132px;
+    /* background-image: linear-gradient(115deg, 
+		#26b99b 100%); */
+    background-color: #26b99b;
+    line-height: 132px;
+}
+
+.one img {
+    margin-left: 59px;
+    width: 85px;
+    height: 85px;
+}
+
+.one p {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.one ul {
+    float: right;
+}
+
+.one ul li {
+    float: right;
+    /* width: 100px;
+	height: 100px; */
+    margin-right: 107px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.one ul li .ig {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/sprites.png);
+}
+
+.one ul li span {
+    font-size: 16px;
+}
+
+/* 第二个模块 */
+
+.two {
+    position: relative;
+    margin-top: 20px;
+    height: 374px;
+    background-color: #fff;
+}
+
+.two h2 {
+    position: absolute;
+    top: 21px;
+    left: 12px;
+    font-size: 19px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.two h3 {
+    position: absolute;
+    right: 26px;
+    top: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #999999;
+}
+
+.two li {
+    position: relative;
+    top: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 971px;
+    height: 137px;
+    border: solid 1px #f4f4f4;
+}
+
+.two li img {
+    margin-top: 17px;
+    margin-left: 13px;
+    width: 106px;
+    height: 106px;
+}
+
+.two li .p1 {
+    position: absolute;
+    left: 129px;
+    top: 49px;
+    font-size: 16px;
+    color: #333;
+}
+
+.two li .p2 {
+    position: absolute;
+    top: 74px;
+    left: 129px;
+    font-size: 14px;
+    color: #333;
+}
+
+.two li span {
+    position: absolute;
+    left: 462px;
+    top: 61px;
+    font-size: 14px;
+    color: #e05e30;
+}
+
+.two .play1 {
+    position: absolute;
+    left: 585px;
+    top: 0;
+    width: 190px;
+    height: 137px;
+    text-align: center;
+    border-left: 1px solid #e8e8e8;
+}
+
+.two .play1 .span1 {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #9a2e1f;
+}
+
+.two .play1 .span2 {
+    font-size: 14px;
+    color: #333;
+}
+
+.two .play2 {
+    position: absolute;
+    left: 788px;
+    top: 0;
+    width: 190px;
+    height: 137px;
+    text-align: center;
+    border-left: 1px solid #e8e8e8;
+}
+
+.two .play2 .button {
+    width: 100px;
+    height: 31px;
+    margin: auto;
+    margin-top: 28px;
+    background-color: #27ba9b;
+    border-radius: 2px;
+    line-height: 31px;
+    font-size: 14px;
+}
+
+.two .play2 p {
+    font-size: 14px;
+    margin-top: 9px;
+    color: #333;
+}
+
+/* 第三个模块 */
+.three {
+    position: relative;
+    height: 408px;
+}
+
+.three h2 {
+    position: absolute;
+    top: 21px;
+    left: 12px;
+    font-size: 19px;
+    font-weight: normal;
+    color: #333;
+}
+
+.three .line {
+    position: absolute;
+    top: 58px;
+    left: 12px;
+    width: 972px;
+    height: 1px;
+    background-color: #e8e8e8;
+}
+
+.three .line li{
+    width: 242px;
+    height: 304px;
+    background-color: green;
+}
+
+.three .goods{
+    position: absolute;
+    top: 80px;
+    right: 2px;
+    width: 992px;
+    height: 304px;
+}
+
+.three .goods li{
+    float: left;
+    margin-right: 8px;
+    width: 242px;
+    height: 304px;
+    text-align: center;
+}
+
+.three .goods li:last-child{
+    margin: 0;
+}
+
+.three .goods li img{
+    margin-top: 23px;
+    width: 154px;
+    height: 154px;
+}
+
+.three .goods li p{
+    left: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.three .goods li span{
+    bottom: 30px;
+    left: 42px;
+    font-size: 22px;
+    color: #9a2e1f;
+}
